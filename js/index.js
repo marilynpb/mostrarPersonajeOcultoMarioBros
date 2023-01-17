@@ -31,6 +31,9 @@ function mostrarPresentacion(nombre){
         case 'daisy' || 'Daisy':
             spanText.textContent="Princesa Daisy"
             break; 
+        default:
+            alert("Elija entre uno de estos personajes: Mario, Luigi, Bowser, Peach, Daisy, Toad, Toadette o Yoshi")
+            break; 
         personajeMostrado = nombre
         console.log(personajeMostrado)
     } 
